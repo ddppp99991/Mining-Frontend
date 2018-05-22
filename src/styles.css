@@ -1,1 +1,196 @@
 /* You can add global styles to this file, and also import other style files */
+@import "~element-angular/theme/index.css";
+@media (min-width: 768px) {
+    .page-fixedbar #page-head, .page-fixedbar #page-content {
+        margin-left: 0px;
+    }
+    .navbar-top-links .tgl-menu-info {
+        position: absolute;
+        left: 47px;
+        top: 16px;
+    }
+}
+@media (max-width: 760px) {
+    .navbar-top-links .tgl-menu-info {
+        position: absolute;
+        left: 30px;
+        top: 16px;
+    }
+}
+body, #content-container, #navbar {
+    background-color: #efeeee;
+}
+.box, .box-color {
+    background-color: #fff;
+    position: relative;
+    margin-bottom: 1.5rem;
+}
+.p-a {
+    padding: 20px;
+}
+.box, .box-color {
+    box-shadow: 0 0 1px rgba(0,0,0,.15);
+}
+.circle, .rounded {
+    border-radius: 500px;
+}
+.accent {
+    color: rgba(255,255,255,.87);
+    background-color: #a88add;
+}
+.w-48 {
+    width: 48px;
+    height: 48px;
+    line-height: 48px;
+}
+.pull-left {
+    float: left;
+}
+.m-r, .m-x {
+    margin-right: 1rem!important;
+}
+.md-btn, .md-check, .md-input~label, .w-16, .w-20, .w-24, .w-32, .w-48, .w-56, .w-8 {
+    display: inline-block;
+}
+.md-btn, .w-24, .w-32, .w-40, .w-48, .w-56 {
+    text-align: center;
+}
+.clear {
+    display: block;
+    overflow: hidden;
+}
+._300 {
+    font-weight: 300;
+}
+.text-lg {
+    font-size: 1.5rem;
+}
+.text-accent, .text-accent-hover a:hover {
+    color: #a88add!important;
+}
+.clear h4 {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-size: 18px;
+}
+.accent {
+    color: rgba(255,255,255,.87);
+    background-color: #a88add;
+}
+.text-sm {
+    font-size: 12px;
+}
+.primary {
+    background-color: #0cc2aa;
+}
+.warn {
+    background-color: #fcc100;
+}
+.info {
+    background-color: #6887ff;
+}
+.success {
+    background-color: #6cc788;
+}
+.danger {
+    background-color: #f44455;
+}
+.row-col {
+    display: table;
+    table-layout: fixed;
+    border-spacing: 0;
+    width: 100%;
+    height: 100%;
+}
+.row-col .p-a {
+    padding: 8px;
+}
+.row-cell {
+    display: table-cell;
+    vertical-align: top;
+}
+.b-danger {
+    border-color: #f44455;
+    padding: 0px 10px;
+    line-height: 18px;
+}
+.panel-title-small {
+    padding: 0 20px 0 20px;
+}
+.b-l-primary {
+    border-left-color: #0cc2aa;
+}
+.b-l-warning {
+    border-left-color: #f77a99;
+}
+.b-l-success {
+    border-left-color: #6cc788;
+}
+.b-l-info {
+    border-left-color: #6887ff;
+}
+.b-l-danger {
+    border-left-color: #f44455;
+}
+.b-l-primary {
+    border-left-color: #0cc2aa;
+}
+.panel-body-full .list{
+    padding-left: 0px;
+}
+.list-item {
+    display: block;
+    position: relative;
+    padding: 12px 16px;
+}
+.list-left {
+    float: left;
+    padding-right: 1rem;
+}
+.r-2x {
+    border-radius: 6px;
+}
+._600 {
+    font-weight: 600;
+}
+.text-lg {
+    font-size: 1.5rem;
+}
+.w-40 {
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    display: inline-block;
+}
+.warning {
+    background-color: #f77a99;
+}
+.black, .danger, .dark, .grey, .info, .primary, .success, .warn, .warning {
+    color: rgba(255,255,255,.87);
+}
+.list-left+.list-body {
+    margin-left: 56px;
+}
+.text-muted {
+    color: inherit!important;
+    opacity: .6;
+}
+.panel-title-date {
+    color: #b9b9b9!important;
+    font-size: 14px;
+}
+.accent:hover{
+    color: rgba(255,255,255,.87);
+}
+.b-accent {
+    border-color: #a88add;
+}
+.text-accent, .text-accent-hover a:hover {
+    color: #a88add!important;
+}
+.btn.btn-default, .btn.btn-secondary, .btn.white, .card, blockquote, pre {
+    border-color: rgba(120,130,140,.13);
+    width: 66px;
+    height: 38px;
+    margin-left: 2px;
+}

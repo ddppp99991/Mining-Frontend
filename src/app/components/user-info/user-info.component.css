@@ -1,0 +1,25 @@
+.tab-stacked-left .nav-tabs {
+    width: 250px;
+    border: 0;
+}
+.tab-base .nav-tabs > li.active > a {
+    background-color: #efeeee;
+    transition: background-color,0.3s;
+}
+.tab-base .nav-tabs>li:not(.active)>a {
+    background-color: #efeeee;
+    transition: background-color,0.3s;
+}
+.tab-base .nav-tabs > li.active{
+    border-left: 2px solid #67c23a;
+}
+.tab-base .nav-tabs > li:hover,
+.tab-base .nav-tabs > li:focus{
+    border-left: 2px solid #67c23a;
+}
+.tab-base .tab-content {
+    background-color: rgb(248, 248, 248);
+}
+.b-info {
+    border-color: #6887ff;
+}

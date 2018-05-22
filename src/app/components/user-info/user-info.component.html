@@ -1,0 +1,111 @@
+<!-- <div id="page-head">
+    <div id="page-title">
+        <h1 class="page-header text-overflow">我的首页</h1>
+    </div>
+    <ol class="breadcrumb">
+        <li>
+            <a href="javascript:;">
+                <i class="demo-pli-home"></i>
+            </a>
+        </li>
+        <li class="active">我的首页</li>
+    </ol>
+</div> -->
+
+<div id="page-content">
+    <div class="row">
+        <div class="eq-height">
+            <div class="col-md-12">
+                <div class="tab-base tab-stacked-left">
+                    <ul class="nav nav-tabs">
+                        <li class="active">
+                            <a data-toggle="tab" href="#demo-stk-lft-tab-1" aria-expanded="true">个人信息</a>
+                        </li>
+                        <li>
+                            <a data-toggle="tab" href="#demo-stk-lft-tab-2" aria-expanded="false">更改密码</a>
+                        </li>
+                        <li>
+                            <a data-toggle="tab" href="#demo-stk-lft-tab-3" aria-expanded="false">二次认证</a>
+                        </li>
+                    </ul>
+
+                    <!--Tabs Content-->
+                    <div class="tab-content">
+                        <div id="demo-stk-lft-tab-1" class="tab-pane fade  active in">
+                            <div class="p-a-md dker _600">基本信息</div>
+                            <div class="padding">
+                                <div class="form-group">
+                                    <label>姓名</label>
+                                    <input id="name" type="text" readonly="" class="form-control">
+                                </div>
+                                <div class="form-group">
+                                    <label>通讯地址</label>
+                                    <textarea id="address" rows="3" class="form-control"></textarea>
+                                </div>
+                                <button type="button"  class="btn btn-info m-t">更新</button>
+                            </div>
+                        </div>
+
+                        <div id="demo-stk-lft-tab-2" class="tab-pane fade">
+                            <div class="p-a-md dker _600">更改密码</div>
+                            <div class="clearfix m-b-lg">
+                                <div class="padding">
+                                    <div class="form-group">
+                                        <label>旧密码</label>
+                                        <input type="password" id="oldPassword" class="form-control">
+                                    </div>
+                                    <div class="form-group">
+                                        <label>新密码</label>
+                                        <input type="password" id="newPassword" class="form-control">
+                                    </div>
+                                    <div id="progressBox" class="form-group">
+                                        <div class="progress-bar primary" style="width:0"></div>
+                                    </div>
+                                    <div class="form-group">
+                                        <label>确认密码</label>
+                                        <input type="password" id="confirmPassword" class="form-control">
+                                    </div>
+                                    <div class="form-group">
+                                        <button  type="button" class="btn btn-info m-t">设置</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div id="demo-stk-lft-tab-3" class="tab-pane fade">
+                            <div class="p-a-md dker _600">登录二次认证(没有则新增,已有则重置)</div>
+                            <div class="padding">
+                                <div class="form-group">
+                                    <img id="qrCodeBox" style="width:120px;height:120px" src="data:image/png;base64,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">
+                                    <div style="margin-top:10px;border:1px">用Google Authenticator 扫描上图二维码或者填写下面密钥</div>
+                                    <div id="qrCodeTextBox" style="margin-top:10px;border:1px;word-break:break-all;word-wrap:break-word">M5AE4LZTF5UVWO2FEN4HAZKSHZFFG3CDMJJEQ6ZIIJKHW2D5J44A</div>
+                                </div>
+                                <div class="form-group">
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                            <div class="md-form-group">
+                                                <input id="qrCodeValidCode" type="text" class="form-control" required="" placeholder="请填写验证码">
+                                            </div>
+                                        </div>
+                                        <div class="col-md-4">
+                                            <button id="btnSendQrValidCode" class="btn btn-outline rounded b-info text-info text-sm" >获取验证码</button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label>二次认证码</label>
+                                    <input id="token" type="text" class="form-control" placeholder="请输入扫描上图产生的二次认证码">
+                                </div>
+                                <button type="button" class="btn btn-info m-t">设置</button>
+                                <button id="btnStop2FA" type="button"  class="btn btn-danger m-t">禁用</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+
+</div>

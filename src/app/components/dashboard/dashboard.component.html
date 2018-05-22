@@ -1,0 +1,704 @@
+<!-- <div id="page-head">
+    <div id="page-title">
+        <h1 class="page-header text-overflow">我的首页</h1>
+    </div>
+    <ol class="breadcrumb">
+        <li>
+            <a href="javascript:;">
+                <i class="demo-pli-home"></i>
+            </a>
+        </li>
+        <li class="active">我的首页</li>
+    </ol>
+</div> -->
+
+<div id="page-content">
+    <div class="row">
+        <div class="eq-height">
+            <div class="col-md-4">
+                <div class="box p-a">
+                    <div class="pull-left m-r">
+                        <span class="w-48 rounded  accent">
+                            <i class="fa fa-dollar"></i>
+                        </span>
+                    </div>
+                    <div class="clear">
+                        <h4 class="m-a-0 text-lg _300">
+                            <a href=""> 0.00030515
+                                <span class="text-sm">BTC</span>
+                            </a>
+
+                        </h4>
+                        <small class="text-muted">今日收益
+                            <a href="./pay_setting.html" class="text-accent">更换付款方式</a>
+                        </small>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="box p-a">
+                    <div class="pull-left m-r">
+                        <span class="w-48 rounded  primary">
+                            <i class="fa fa-dollar"></i>
+                        </span>
+                    </div>
+                    <div class="clear">
+                        <h4 class="m-a-0 text-lg _300">
+                            <a href=""> 0
+                                <span class="text-sm">项目</span>
+                            </a>
+
+                        </h4>
+                        <small class="text-muted">已运行0个
+
+                        </small>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="box p-a">
+                    <div class="pull-left m-r">
+                        <span class="w-48 rounded  warn">
+                            <i class="fa fa-dollar"></i>
+                        </span>
+                    </div>
+                    <div class="clear">
+                        <h4 class="m-a-0 text-lg _300">
+                            <a href=""> 13.5
+                                <span class="text-sm">T(S9)</span>
+                            </a>
+
+                        </h4>
+                        <small class="text-muted">共购买算力
+                        </small>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="eq-height">
+            <div class="col-md-4">
+                <div class="box p-a">
+                    <div class="pull-left m-r">
+                        <span class="w-48 rounded info">
+                            <i class="fa fa-dollar"></i>
+                        </span>
+                    </div>
+                    <div class="clear">
+                        <h4 class="m-a-0 text-lg _300">
+                            <a href=""> 13.5
+                                <span class="text-sm">T(S9)</span>
+                            </a>
+
+                        </h4>
+                        <small class="text-muted">共购买算力
+                        </small>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="box p-a">
+                    <div class="pull-left m-r">
+                        <span class="w-48 rounded success">
+                            <i class="fa fa-dollar"></i>
+                        </span>
+                    </div>
+                    <div class="clear">
+                        <h4 class="m-a-0 text-lg _300">
+                            <a href=""> 13.5
+                                <span class="text-sm">T(S9)</span>
+                            </a>
+
+                        </h4>
+                        <small class="text-muted">共购买算力
+                        </small>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="box p-a">
+                    <div class="pull-left m-r">
+                        <span class="w-48 rounded danger">
+                            <i class="fa fa-dollar"></i>
+                        </span>
+                    </div>
+                    <div class="clear">
+                        <h4 class="m-a-0 text-lg _300">
+                            <a href=""> 13.5
+                                <span class="text-sm">T(S9)</span>
+                            </a>
+
+                        </h4>
+                        <small class="text-muted">共购买算力
+                        </small>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="eq-height">
+            <div class="col-md-12">
+                <div class="row-col box-color text-center primary">
+                    <div class="row-cell p-a">BTC价格
+                        <h4 class="m-a-0 text-md _600">
+                            <span id="todayBtcPrice">52401.99</span>
+                        </h4>
+                    </div>
+                    <div class="row-cell p-a dker">BCH价格
+                        <h4 class="m-a-0 text-md _600">
+                            <span id="todayBchPrice">7671.65</span>
+                        </h4>
+                    </div>
+                    <div class="row-cell p-a">LTC价格
+                        <h4 class="m-a-0 text-md _600">
+                            <span id="todayLtcPrice">837.41</span>
+                        </h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="eq-height">
+            <div class="col-md-3">
+                <div class="panel">
+                    <div class="panel-heading">
+                        <div class="panel-control">
+                            <a class="btn btn-link text-accent">
+                                <i class="fa fa-history">历史收益</i>
+                            </a>
+                        </div>
+                        <h3 class="panel-title">S9每T收益</h3>
+                    </div>
+                    <div class="panel-body">
+                        <table class="table">
+                            <thead>
+                                <tr>
+                                    <th style="text-align:center">BTC</th>
+                                    <th style="text-align:center">BCH</th>
+                                    <th style="text-align:center">RMB</th>
+                                </tr>
+                            </thead>
+                            <tbody id="tbodyBtc">
+                                <tr>
+                                    <td style="text-align:center">0.00005922</td>
+                                    <td style="text-align:center">0.00040452</td>
+                                    <td style="text-align:center">3.09</td>
+                                </tr>
+                                <tr></tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-3">
+                <div class="panel">
+                    <div class="panel-heading">
+                        <div class="panel-control">
+                            <a class="btn btn-link text-accent">
+                                <i class="fa fa-history">历史收益</i>
+                            </a>
+                        </div>
+                        <h3 class="panel-title">S9 13.5T收益</h3>
+                    </div>
+                    <div class="panel-body">
+                        <table class="table">
+                            <thead>
+                                <tr>
+                                    <th style="text-align:center">BTC</th>
+                                    <th style="text-align:center">BCH</th>
+                                    <th style="text-align:center">RMB</th>
+                                </tr>
+                            </thead>
+                            <tbody id="tbodyBtc">
+                                <tr>
+                                    <td style="text-align:center">0.00005922</td>
+                                    <td style="text-align:center">0.00040452</td>
+                                    <td style="text-align:center">3.09</td>
+                                </tr>
+                                <tr></tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-3">
+                <div class="panel">
+                    <div class="panel-heading">
+                        <div class="panel-control">
+                            <a class="btn btn-link text-accent">
+                                <i class="fa fa-history">历史收益</i>
+                            </a>
+                        </div>
+                        <h3 class="panel-title">S9 14T收益</h3>
+                    </div>
+                    <div class="panel-body">
+                        <table class="table">
+                            <thead>
+                                <tr>
+                                    <th style="text-align:center">BTC</th>
+                                    <th style="text-align:center">BCH</th>
+                                    <th style="text-align:center">RMB</th>
+                                </tr>
+                            </thead>
+                            <tbody id="tbodyBtc">
+                                <tr>
+                                    <td style="text-align:center">0.00005922</td>
+                                    <td style="text-align:center">0.00040452</td>
+                                    <td style="text-align:center">3.09</td>
+                                </tr>
+                                <tr></tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-3">
+                <div class="panel">
+                    <div class="panel-heading">
+                        <div class="panel-control">
+                            <a class="btn btn-link text-accent">
+                                <i class="fa fa-history">历史收益</i>
+                            </a>
+                        </div>
+                        <h3 class="panel-title">L3收益每台收益</h3>
+                    </div>
+                    <div class="panel-body">
+                        <table class="table">
+                            <thead>
+                                <tr>
+                                    <th style="text-align:center">BTC</th>
+                                    <th style="text-align:center">BCH</th>
+                                    <th style="text-align:center">RMB</th>
+                                </tr>
+                            </thead>
+                            <tbody id="tbodyBtc">
+                                <tr>
+                                    <td style="text-align:center">0.00005922</td>
+                                    <td style="text-align:center">0.00040452</td>
+                                    <td style="text-align:center">3.09</td>
+                                </tr>
+                                <tr></tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="eq-height">
+            <div class="col-md-3">
+                <div class="box p-a">
+                    <div class="pull-left m-r">
+                        <span class="w-48 rounded primary">
+                        </span>
+                    </div>
+                    <div class="clear">
+                        <h4 class="m-a-0 text-lg _300">
+                            <a href=""> 180%
+                                <span class="text-sm">G 批次回本</span>
+                            </a>
+
+                        </h4>
+                        <small class="text-muted">管理费
+                            <a href="./pay_setting.html" class="text-accent">0.00013078btc</a>
+                        </small>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="eq-height">
+            <div class="col-md-6">
+                <div class="panel">
+                    <div class="panel-heading">
+                        <div class="panel-control">
+                            <a class="btn btn-link text-accent">
+                                <i class="fa fa-list-alt">我的账户</i>
+                            </a>
+                        </div>
+                        <h3 class="panel-title">今日人民币收入详情</h3>
+                    </div>
+                    <div class="panel-body">
+                        <table class="table">
+                            <thead>
+                                <tr>
+                                    <th>批次</th>
+                                    <th>收入</th>
+                                    <th>电费</th>
+                                    <th>管理费</th>
+                                    <th>净收益</th>
+                                </tr>
+                            </thead>
+                            <tbody id="tbodyTodayProfit">
+                                <tr>
+                                    <td>G</td>
+                                    <td>41.89</td>
+                                    <td>19.05</td>
+                                    <td>6.85</td>
+                                    <td>15.99</td>
+                                </tr>
+                                <tr></tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-6">
+                <div class="panel">
+                    <div class="panel-heading">
+                        <div class="panel-control">
+                            <a class="btn btn-link text-accent">
+                                <i class="fa fa-list-alt">所有项目</i>
+                            </a>
+                        </div>
+                        <h3 class="panel-title">最近项目</h3>
+                    </div>
+                    <div class="panel-body">
+                        <table class="table">
+                            <thead>
+                                <tr>
+                                    <th>批次</th>
+                                    <th>名称</th>
+                                    <th>机型</th>
+                                    <th>剩余</th>
+                                    <th></th>
+                                </tr>
+                            </thead>
+                            <tbody id="tbodyProject">
+                                <tr>
+                                    <td>
+                                        W
+                                    </td>
+                                    <td>
+                                        S9 0531
+                                    </td>
+                                    <td>S9i</td>
+                                    <td>
+                                        1966
+                                    </td>
+                                    <td class="text-center">
+                                        <a href="./project_buy.html?projectId=30" class="btn btn-sm btn-outline rounded b-danger text-danger">购买</a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        V
+                                    </td>
+                                    <td>
+                                        S90520
+                                    </td>
+                                    <td>S9i</td>
+                                    <td>
+                                        0
+                                    </td>
+                                    <td class="text-center">
+                                        <span class="text-accent">已售完</span>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        L06
+                                    </td>
+                                    <td>
+                                        L30421
+                                    </td>
+                                    <td>L3+S</td>
+                                    <td>
+                                        0
+                                    </td>
+                                    <td class="text-center">
+                                        <span class="text-accent">已售完</span>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        L05
+                                    </td>
+                                    <td>
+                                        L30410
+                                    </td>
+                                    <td>L3+S</td>
+                                    <td>
+                                        0
+                                    </td>
+                                    <td class="text-center">
+                                        <span class="text-accent">已售完</span>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        U
+                                    </td>
+                                    <td>
+                                        S90410
+                                    </td>
+                                    <td>S9</td>
+                                    <td>
+                                        0
+                                    </td>
+                                    <td class="text-center">
+                                        <span class="text-accent">已售完</span>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="eq-height">
+            <div class="col-md-6">
+                <div class="panel">
+                    <div class="panel-heading">
+                        <h3 class="panel-title" style="margin-bottom: -8px;">最近收益</h3>
+                        <small class="panel-title-small">账户余额 0.08161679 BTC</small>
+                    </div>
+                    <div class="panel-body panel-body-full">
+                        <ul id="dayProfitList" class="list inset">
+                            <li class="list-group-item b-l-primary">
+                                <div class="list-body">
+                                    <div>
+                                        <a href="javascript:void 0">2018-05-22</a>
+                                        <div class="pull-right text-ellipsis">
+                                            <b>
+                                                <span class="text-info">0.00030515 BTC</span> &nbsp;
+                                            </b>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="list-group-item b-l-warning">
+                                <div class="list-body">
+                                    <div>
+                                        <a href="javascript:void 0">2018-05-21</a>
+                                        <div class="pull-right text-ellipsis">
+                                            <b>
+                                                <span class="text-info">0.00030303 BTC</span> &nbsp;
+                                            </b>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="list-group-item b-l-success">
+                                <div class="list-body">
+                                    <div>
+                                        <a href="javascript:void 0">2018-05-20</a>
+                                        <div class="pull-right text-ellipsis">
+                                            <b>
+                                                <span class="text-info">0.00029569 BTC</span> &nbsp;
+                                            </b>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="list-group-item b-l-info">
+                                <div class="list-body">
+                                    <div>
+                                        <a href="javascript:void 0">2018-05-19</a>
+                                        <div class="pull-right text-ellipsis">
+                                            <b>
+                                                <span class="text-info">0.00030684 BTC</span> &nbsp;
+                                            </b>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="list-group-item b-l-danger">
+                                <div class="list-body">
+                                    <div>
+                                        <a href="javascript:void 0">2018-05-18</a>
+                                        <div class="pull-right text-ellipsis">
+                                            <b>
+                                                <span class="text-info">0.00029898 BTC</span> &nbsp;
+                                            </b>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="list-group-item b-l-primary">
+                                <div class="list-body">
+                                    <div>
+                                        <a href="javascript:void 0">2018-05-17</a>
+                                        <div class="pull-right text-ellipsis">
+                                            <b>
+                                                <span class="text-info">0.00029691 BTC</span> &nbsp;
+                                            </b>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-6">
+                <div class="panel">
+                    <div class="panel-heading">
+                        <div class="panel-control">
+                            <a class="btn btn-link text-accent">
+                                <i class="fa fa-list-alt">最近收支</i>
+                            </a>
+                        </div>
+                        <h3 class="panel-title">所有收支</h3>
+                    </div>
+                    <div class="panel-body panel-body-full">
+                        <ul id="incomeCostList" class="list inset">
+                            <li class="list-item">
+                                <a href="" class="list-left">
+                                    <span class="w-40 r-2x _600 text-lg warning">
+                                        电
+                                    </span>
+                                </a>
+                                <div class="list-body">
+                                    <div class="m-y-sm pull-right">
+                                        <a href="javascript:void 0" class="btn btn-xs white">2018-05-22 08:47</a>
+                                        <!--<a href class="btn btn-xs white btn-icon"><i class="fa fa-eye"></i></a>-->
+                                    </div>
+                                    <div>
+                                        <span style="color:red">-19.05 元</span>
+                                    </div>
+                                    <div class="text-sm">
+                                        <span style="color:#000">2018-05-22 电费(折合RMB)</span>
+                                        <br>
+                                        <span class="text-muted">RMB 0元;BTC 0.00036356;LTC 0;BCH 0</span>
+                                        <!--<span class="label">aaa</span>-->
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="list-item">
+                                <a href="" class="list-left">
+                                    <span class="w-40 r-2x _600 text-lg info">
+                                        管
+                                    </span>
+                                </a>
+                                <div class="list-body">
+                                    <div class="m-y-sm pull-right">
+                                        <a href="javascript:void 0" class="btn btn-xs white">2018-05-22 08:47</a>
+                                        <!--<a href class="btn btn-xs white btn-icon"><i class="fa fa-eye"></i></a>-->
+                                    </div>
+                                    <div>
+                                        <span style="color:red">-0.00013078 BTC</span>
+                                    </div>
+                                    <div class="text-sm">
+                                        <span style="color:#000">2018-05-22 管理费(BTC)</span>
+                                        <br>
+                                        <span class="text-muted">收益30.00%的手续费</span>
+                                        <!--<span class="label">aaa</span>-->
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="list-item">
+                                <a href="" class="list-left">
+                                    <span class="w-40 r-2x _600 text-lg accent">
+                                        收
+                                    </span>
+                                </a>
+                                <div class="list-body">
+                                    <div class="m-y-sm pull-right">
+                                        <a href="javascript:void 0" class="btn btn-xs white">2018-05-22 08:47</a>
+                                        <!--<a href class="btn btn-xs white btn-icon"><i class="fa fa-eye"></i></a>-->
+                                    </div>
+                                    <div>
+                                        <span style="color:green">+0.00079948 BTC</span>
+                                    </div>
+                                    <div class="text-sm">
+                                        <span style="color:#000">2018-05-22 BTC收入</span>
+                                        <br>
+                                        <span class="text-muted"></span>
+                                        <!--<span class="label">aaa</span>-->
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="list-item">
+                                <a href="" class="list-left">
+                                    <span class="w-40 r-2x _600 text-lg warning">
+                                        电
+                                    </span>
+                                </a>
+                                <div class="list-body">
+                                    <div class="m-y-sm pull-right">
+                                        <a href="javascript:void 0" class="btn btn-xs white">2018-05-21 08:42</a>
+                                        <!--<a href class="btn btn-xs white btn-icon"><i class="fa fa-eye"></i></a>-->
+                                    </div>
+                                    <div>
+                                        <span style="color:red">-19.05 元</span>
+                                    </div>
+                                    <div class="text-sm">
+                                        <span style="color:#000">2018-05-21 电费(折合RMB)</span>
+                                        <br>
+                                        <span class="text-muted">RMB 0元;BTC 0.00035767;LTC 0;BCH 0</span>
+                                        <!--<span class="label">aaa</span>-->
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="list-item">
+                                <a href="" class="list-left">
+                                    <span class="w-40 r-2x _600 text-lg info">
+                                        管
+                                    </span>
+                                </a>
+                                <div class="list-body">
+                                    <div class="m-y-sm pull-right">
+                                        <a href="javascript:void 0" class="btn btn-xs white">2018-05-21 08:42</a>
+                                        <!--<a href class="btn btn-xs white btn-icon"><i class="fa fa-eye"></i></a>-->
+                                    </div>
+                                    <div>
+                                        <span style="color:red">-0.00012987 BTC</span>
+                                    </div>
+                                    <div class="text-sm">
+                                        <span style="color:#000">2018-05-21 管理费(BTC)</span>
+                                        <br>
+                                        <span class="text-muted">收益30.00%的手续费</span>
+                                        <!--<span class="label">aaa</span>-->
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="list-item">
+                                <a href="" class="list-left">
+                                    <span class="w-40 r-2x _600 text-lg accent">
+                                        收
+                                    </span>
+                                </a>
+                                <div class="list-body">
+                                    <div class="m-y-sm pull-right">
+                                        <a href="javascript:void 0" class="btn btn-xs white">2018-05-21 08:42</a>
+                                        <!--<a href class="btn btn-xs white btn-icon"><i class="fa fa-eye"></i></a>-->
+                                    </div>
+                                    <div>
+                                        <span style="color:green">+0.00079056 BTC</span>
+                                    </div>
+                                    <div class="text-sm">
+                                        <span style="color:#000">2018-05-21 BTC收入</span>
+                                        <br>
+                                        <span class="text-muted"></span>
+                                        <!--<span class="label">aaa</span>-->
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

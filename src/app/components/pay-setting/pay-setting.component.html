@@ -1,0 +1,224 @@
+<!-- <div id="page-head">
+    <div id="page-title">
+        <h1 class="page-header text-overflow">我的首页</h1>
+    </div>
+    <ol class="breadcrumb">
+        <li>
+            <a href="javascript:;">
+                <i class="demo-pli-home"></i>
+            </a>
+        </li>
+        <li class="active">我的首页</li>
+    </ol>
+</div> -->
+
+<div id="page-content">
+    <div class="row">
+        <div class="eq-height">
+            <div class="col-md-6">
+                <div class="panel">
+                    <div class="panel-heading">
+                        <h3 class="panel-title" style="margin-bottom: -12px;">币地址设置</h3>
+                        <small style="padding-left: 20px;">请先设置好地址再选择付款方式</small>
+                    </div>
+                    <form class="panel-body form-horizontal form-padding">
+                        <div class="form-group">
+                            <label class="col-md-3 control-label" for="demo-text-input">BTC地址</label>
+                            <div class="col-md-9">
+                                <input type="text" id="demo-text-input" class="form-control" placeholder="请输入BTC地址">
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label class="col-md-3 control-label" for="demo-text-input">BCH地址</label>
+                            <div class="col-md-9">
+                                <input type="text" id="demo-text-input" class="form-control" placeholder="请输入BCH地址">
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label class="col-md-3 control-label" for="demo-text-input">LTC地址</label>
+                            <div class="col-md-9">
+                                <input type="text" id="demo-text-input" class="form-control" placeholder="请输入LTC地址">
+                            </div>
+                        </div>
+
+                        <div class="form-group pad-ver">
+                            <label class="col-md-3 control-label">提现方式</label>
+                            <div class="col-md-9">
+                                <div class="radio">
+                                    <input id="demo-inline-form-radio-2" class="magic-radio" type="radio" name="inline-form-radio">
+                                    <label for="demo-inline-form-radio-2">自动提现</label>
+
+                                    <input id="demo-inline-form-radio-3" class="magic-radio" type="radio" name="inline-form-radio" checked>
+                                    <label for="demo-inline-form-radio-3">手动提现</label>
+
+
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="form-group pad-ver">
+                            <label class="col-md-3 control-label"></label>
+                            <div class="col-md-9">
+                                <small>
+                                    <b>自动提现</b>：收益的币将在第二天直接打至所填币地址;
+                                    <br>
+                                    <b>手动提现</b>：收益币保留在余额,用户可以提交提现申请,所提币将会在24小时内打入对应账户.
+                                    <div id="withdrawTip">
+                                        <br>您还未设定统一提现状态,当前状态为:LTC 自动提现;BTC 手动提现;BCH 自动提现; 点击保存后修改状态</div>
+                                </small>
+                            </div>
+                        </div>
+                    </form>
+                    <div class="panel-footer text-right">
+                        <button class="btn btn-primary" type="submit">保存</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-6">
+                <div class="panel">
+                    <div class="panel-heading">
+                        <h3 class="panel-title" style="margin-bottom: -12px;">人民币收款地址</h3>
+                        <small style="padding-left: 20px;">人民币收款方式有2种,缺省为银行收款,请选择最合适您的方式</small>
+                    </div>
+                    <form class="panel-body form-horizontal form-padding">
+                        <div class="form-group">
+                            <label class="col-md-3 control-label" for="demo-text-input"></label>
+                            <div class="col-md-9">
+                                <div class="radio">
+                                    <input id="demo-inline-form-radio-4" class="magic-radio" disabled type="radio" name="inline-form-radio4">
+                                    <label for="demo-inline-form-radio-4">支付宝收款</label>
+
+                                    <input id="demo-inline-form-radio-5" class="magic-radio" type="radio" name="inline-form-radio4" checked>
+                                    <label for="demo-inline-form-radio-5">银行收款</label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label class="col-md-3 control-label" for="demo-text-input">省市</label>
+                            <div class="col-md-4">
+                                <input type="text" class="form-control" placeholder="请输入省/直辖市">
+                            </div>
+                            <div class="col-md-4">
+                                <input type="text" class="form-control" placeholder="请输入市">
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label class="col-md-3 control-label" for="demo-text-input">银行</label>
+                            <div class="col-md-9">
+                                <input type="text" id="demo-text-input" class="form-control" placeholder="请输入银行名称 如招商银行">
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label class="col-md-3 control-label" for="demo-text-input">支行</label>
+                            <div class="col-md-9">
+                                <input type="text" id="demo-text-input" class="form-control" placeholder="请输入支行名称 如清河支行">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label class="col-md-3 control-label" for="demo-text-input">开户人</label>
+                            <div class="col-md-9">
+                                <input type="text" id="demo-text-input" class="form-control" placeholder="请输入开户人">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label class="col-md-3 control-label" for="demo-text-input">账号</label>
+                            <div class="col-md-9">
+                                <input type="text" id="demo-text-input" class="form-control" placeholder="请输入账号">
+                            </div>
+                        </div>
+
+                        <div class="form-group pad-ver">
+                            <label class="col-md-3 control-label">提现方式</label>
+                            <div class="col-md-9">
+                                <div class="radio">
+                                    <input id="demo-inline-form-radio-6" class="magic-radio" type="radio" name="inline-form-radio">
+                                    <label for="demo-inline-form-radio-6">自动提现</label>
+
+                                    <input id="demo-inline-form-radio-7" class="magic-radio" type="radio" name="inline-form-radio" checked>
+                                    <label for="demo-inline-form-radio-7">手动提现</label>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                    <div class="panel-footer text-right">
+                        <button class="btn btn-primary" type="submit">保存</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="eq-height">
+            <div class="col-md-6">
+                <div class="panel">
+                    <div class="panel-heading">
+                        <h3 class="panel-title" style="margin-bottom: -12px;">S9收款设置</h3>
+                        <small style="padding-left: 20px;">S9矿机可以选择人民币收益和BTC收益</small>
+                    </div>
+                    <form class="panel-body form-horizontal form-padding">
+                        <div class="form-group pad-ver">
+                            <label class="col-md-3 control-label">支付币种</label>
+                            <div class="col-md-9">
+                                <div class="radio">
+                                    <input id="demo-inline-form-radio-8" class="magic-radio" type="radio" name="inline-form-radio8" checked>
+                                    <label for="demo-inline-form-radio-8">BTC</label>
+
+                                    <input id="demo-inline-form-radio-9" class="magic-radio" type="radio" name="inline-form-radio9">
+                                    <label for="demo-inline-form-radio-9">人民币</label>
+
+                                    <input id="demo-inline-form-radio-10" class="magic-radio" type="radio" name="inline-form-radio10">
+                                    <label for="demo-inline-form-radio-10">BCH</label>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                    <div class="panel-footer text-right">
+                        <button class="btn btn-primary" type="submit">保存</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="eq-height">
+            <div class="col-md-6">
+                <div class="panel">
+                    <div class="panel-heading">
+                        <h3 class="panel-title" style="margin-bottom: -12px;">L3收款设置</h3>
+                        <small style="padding-left: 20px;">L3矿机可以选择人民币收益\BTC收益\LTC收益</small>
+                    </div>
+                    <form class="panel-body form-horizontal form-padding">
+                        <div class="form-group pad-ver">
+                            <label class="col-md-3 control-label">支付币种</label>
+                            <div class="col-md-9">
+                                <div class="radio">
+                                    <input id="demo-inline-form-radio-11" class="magic-radio" type="radio" name="inline-form-radio11">
+                                    <label for="demo-inline-form-radio-11">LTC</label>
+
+                                    <input id="demo-inline-form-radio-12" class="magic-radio" type="radio" name="inline-form-radio12" checked>
+                                    <label for="demo-inline-form-radio-12">BTC</label>
+
+                                    <input id="demo-inline-form-radio-13" class="magic-radio" type="radio" name="inline-form-radio13" checked>
+                                    <label for="demo-inline-form-radio-13">人民币</label>
+
+                                    <input id="demo-inline-form-radio-14" class="magic-radio" type="radio" name="inline-form-radio14" checked>
+                                    <label for="demo-inline-form-radio-14">BCH</label>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                    <div class="panel-footer text-right">
+                        <button class="btn btn-primary" type="submit">保存</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

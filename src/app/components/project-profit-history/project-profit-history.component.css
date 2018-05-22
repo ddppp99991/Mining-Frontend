@@ -1,0 +1,17 @@
+.m-b.h-2x{
+    height: 1.2rem;
+    font-size: 15px;
+    font-weight: 700;
+    color: #000;
+    margin-bottom: 18px;
+}
+.m-b.h-2x a{
+    color: #000 !important;
+}
+p.h-3x {
+    height: 50px;
+    font-size: 14px;
+}
+.btn-fw {
+    min-width: 7rem;
+}

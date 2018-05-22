@@ -1,0 +1,6 @@
+.b-primary {
+    border-color: #0cc2aa;
+}
+.text-primary, .text-primary-hover a:hover {
+    color: #0cc2aa!important;
+}

@@ -1,0 +1,8 @@
+.btn.btn-default, .btn.btn-secondary, .btn.white, .card, blockquote, pre {
+    border-color: rgba(120,130,140,.13);
+    width: auto;
+    height: 38px;
+    margin-left: 2px;
+    /* line-height: 7px; */
+    padding: 8px 5px;
+}
