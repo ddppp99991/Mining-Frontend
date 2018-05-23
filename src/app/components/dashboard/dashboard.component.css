@@ -1,0 +1,25 @@
+.btn.btn-default, .btn.btn-secondary, .btn.white, .card, blockquote, pre {
+    border-color: rgba(120,130,140,.13);
+    width: auto;
+    height: auto;
+    margin-left: 2px;
+    /* line-height: 7px; */
+}
+.btn {
+    display: inline-block;
+    font-weight: 400;
+    line-height: 1.25;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    /* user-select: none; */
+    /* border: 1px solid transparent; */
+    padding: .5rem 1rem;
+    font-size: 1rem;
+    border-radius: .25rem;
+    height: auto;
+}
