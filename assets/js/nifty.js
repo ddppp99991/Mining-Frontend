@@ -1341,7 +1341,7 @@
                     toggleBtn.on('click', function(e){
                         e.preventDefault();
                         e.stopPropagation();
-
+                        console.log("!22222");
                         if(toggleBtn.hasClass('push')){
                             $.niftyNav('pushToggle');
                         }else if(toggleBtn.hasClass('slide')){
@@ -1354,7 +1354,24 @@
                     }
                 )};
 
-
+                var toggleBtn2 = $('.mainnav-toggle2');
+                if(toggleBtn2.length){
+                    toggleBtn2.on('click', function(e){
+                        e.preventDefault();
+                        e.stopPropagation();
+                        console.log("!1111111");
+                        
+                        if(toggleBtn2.hasClass('push')){
+                            $.niftyNav('pushToggle');
+                        }else if(toggleBtn2.hasClass('slide')){
+                            $.niftyNav('slideToggle');
+                        }else if(toggleBtn2.hasClass('reveal')){
+                            $.niftyNav('revealToggle');
+                        }else{
+                            $.niftyNav('colExpToggle');
+                        }
+                    }
+                )};
                 // COLLAPSIBLE MENU LIST
                 // =================================================================
                 // Require MetisMenu
