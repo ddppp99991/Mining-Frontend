@@ -1351,12 +1351,7 @@
                         }
                     }
                 )};
-                var testclick = $('#content-container');
-                if(testclick){
-                    testclick.on('click', function(e){
-                        alert('11111');
-                    }
-                )};
+                
                 var toggleBtn2 = $('.mainnav-toggle2');
                 if(toggleBtn2.length){
                     toggleBtn2.on('click', function(e){

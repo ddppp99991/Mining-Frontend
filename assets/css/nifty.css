@@ -1016,6 +1016,7 @@ h6,
     right: 0;
     height: 45px;
     background: #8c979b;
+    cursor:pointer;
   }
 }
 /* NAVIGATION */
@@ -1029,6 +1030,7 @@ h6,
   z-index: 4000;
   min-height: 100%;
   margin: 0 auto;
+  cursor:pointer;
 }
 #mainnav-container:after {
   content: '';
@@ -1039,6 +1041,7 @@ h6,
   background-color: rgba(0, 0, 0, 0);
   z-index: 1;
   transition: background-color 0.35s;
+  cursor:pointer;
 }
 #mainnav {
   height: 100%;
